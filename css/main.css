@@ -1,0 +1,182 @@
+/***** BASE STYLES *****/
+body{
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #321325;
+  background: #E5E1EE;
+}
+
+h3{
+  font-size: 30px;
+  font-family: 'Lora', serif;
+}
+
+p{
+  font-size: 24px;
+  line-height: 35px;
+}
+
+h4{
+  font-size: 22px;
+  font-weight:400;
+  line-height: 30px;
+}
+
+strong{
+  font-style: oblique;
+  font-weight: 700;
+}
+
+h5{
+  font-size: 14px;
+}
+
+/***** GRID *****/
+
+.full-width {
+  width: 1200px;
+  margin: 0 auto;
+  overflow: auto;
+}
+.half-width {
+  width: 600px;
+  float: left;
+}
+.third-width {
+  width: 400px;
+  float: left;
+}
+
+/****** HEADER ******/
+
+header {
+  height: 800px;
+  background: #321325;
+}
+
+#headline{
+  padding-top: 275px;
+  padding-left: 100px;
+}
+
+header h1{
+  font-family: 'Lora', serif;
+  font-size: 72px;
+  line-height: 80px;
+  color: #71A9F7;
+  display: inline;
+}
+
+header h1 span{
+  background: #71A9F7;
+  color: #321325;
+}
+
+h2{
+  font-weight: 400;
+  font-size: 30px;
+  color: #71A9F7;
+  display: inline-block;
+}
+
+nav{
+  float:right;
+  padding: 75px 0px 75px 0px;
+}
+
+nav ul li{
+  display: inline-block;
+}
+
+nav ul li a{
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 18px;
+  padding-left: 30px;
+  color: #71A9F7;
+  font-weight: 700;
+}
+
+/****** ABOUT ******/
+
+#about{
+  background: #71A9F7;
+  padding: 200px 0px 200px 200px;
+}
+
+#holding-heart{
+  font-size: 275px;
+  display: inline-block;
+}
+
+#about h3 span{
+  color: #71A9F7;
+  background: #321325;
+}
+
+/****** PORTFOLIO ******/
+
+#portfolio{
+  color: #71A9F7;
+  background: #321325;
+  text-align: center;
+}
+
+#portfolio h3{
+  padding: 100px;
+}
+
+#portfolio h3 span{
+  background: #71A9F7;
+  color: #321325;
+}
+
+#portfolio h4{
+  padding: 50px 0px 215px 0px;
+}
+
+/****** CONTACT ******/
+
+#contact{
+  padding:100px 0px 0px 0px;
+  text-align: center;
+  background: #71A9F7;
+  color: #321325;
+}
+
+#contact h4{
+  font-size: 28px;
+}
+
+#contact .third-width{
+  padding: 100px 0px 150px 0px;
+}
+
+#contact ul li{
+  display: inline-block;
+  padding:20px 50px 0 0;
+}
+
+#contact ul li a{
+  text-decoration: none;
+  font-size: 50px;
+  color: #321325;
+}
+
+#contact span{
+  color: #71A9F7;
+  background: #321325;
+}
+
+#contact a{
+  text-decoration: none;
+  color: #321325;
+}
+
+#contact p{
+  display: inline-block;
+  vertical-align: top;
+}
+
+#contact img{
+  padding-right: 20px;
+}
